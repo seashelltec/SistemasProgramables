@@ -13,7 +13,7 @@ visión artificial, programación lógica, entre otros.
 ### Trabajos en clase
 :green_book: [Trabajo en clase 1](blog/C0.1_SeashellMarquez_Masapan.md)
 
-:green_book: [Trabajo en clase 2](blog/C02_SeashellMarquez_Masapanmd)
+:green_book: [Trabajo en clase 2](blog/C02_SeashellMarquez_Masapan.md)
 
 
 ---
