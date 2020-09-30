@@ -20,5 +20,8 @@ visión artificial, programación lógica, entre otros.
 :green_book: [C1.2 Electronica Basica Circuitos](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/C1.2_MarquezMillanSeashellVanessa_Masapan.md)
 
 
+:green_book: [C1.3_Sensores](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/C1.3_SeashellMarquez_Masapan.md)
+
+
 ---
 
