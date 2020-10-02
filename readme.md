@@ -22,6 +22,8 @@ visión artificial, programación lógica, entre otros.
 
 :green_book: [C1.3_Sensores](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/C1.3_SeashellMarquez_Masapan.md)
 
+:green_book: [A1.Fotorrecistores](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/A1.2_SeashellMarquezMillan_Masapan.md)
+
 
 ---
 
