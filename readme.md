@@ -26,6 +26,9 @@ visión artificial, programación lógica, entre otros.
 
 :green_book: [C1.4_Acondicionador de señal](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/C1.4_SeashellMarquez_Masapan.md)
 
+:green_book: [A1.3_Tipos de sensores](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/A1.3_SeashellMarquez_Masapan.md)
+
+:green_book: [C1.5_Tipos de sensores](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/C1.5_SeashellMarquez_Masapan.md)
 
 ---
 
