@@ -30,5 +30,7 @@ visión artificial, programación lógica, entre otros.
 
 :green_book: [C1.5_Tipos de sensores](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/C1.5_SeashellMarquez_Masapan.md)
 
+:green_book: [A1.4_Sensor de temperatura](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/A1.4_SeashellMarquez_Masapan.md)
+
 ---
 
