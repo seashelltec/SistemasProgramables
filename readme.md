@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="Logo" src="https://www.tijuana.tecnm.mx/wp-content/themes/tecnm/images/logo_TECT.png" width=250 height=250>
+    <img alt="Logo" src="img/logo.png" width=250 height=250>
 </p>
 
 
