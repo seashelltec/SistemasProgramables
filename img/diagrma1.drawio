@@ -1,0 +1,61 @@
+<mxfile host="65bd71144e" modified="2020-10-17T02:52:19.165Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.50.1 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="BCZW-Y4DPjEkM3Fw-o_4" version="13.6.5">
+    <diagram id="_zgRi7-x7Z76NKMUnWIk" name="Page-1">
+        <mxGraphModel dx="246" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;size=0.5;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="220" width="30" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Actuadores" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="300" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="HIDRAULICOS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="230" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="NEUMANICOS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="310" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="ELECTRICOS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="380" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="210" width="20" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="360" width="20" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="290" width="20" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Suenergia viene de un fluido de presion como un tipo de aceite mmineral&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="210" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="202.5" width="30" height="47.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Cilindros Hidraulicos&lt;br&gt;Motores Hidraulicos&lt;br&gt;Valbulas Hidraulicas" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="410" y="208.13" width="115" height="36.25" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="292.5" width="30" height="47.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Cilindros neumaticos&lt;br&gt;Motores neumaticos" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="292.5" width="170" height="48.12" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Transforman energia electrica en energia mecanica rotacional." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="365" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Motores de corriente continua&lt;br&gt;motores de correinte alrerna&lt;br&gt;Motores de paso a paso&amp;nbsp; &amp;nbsp; &amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="365.94" width="170" height="48.12" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="366.25" width="30" height="47.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Tranforman energia acomulada en aire comprimido y asi se convierte a trabajo mecanico o movimiento&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="302.5" width="170" height="27.5" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
