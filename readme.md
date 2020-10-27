@@ -36,5 +36,8 @@ visión artificial, programación lógica, entre otros.
 
 :green_book: [C2.2_Temporizador](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/C2.3_SeashellMarquez_Masapan.md)
 
+:green_book: [A2.1_Tipos de Actuadores](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/A2.1_SeashellMarquez_Masapan.md)
+
+
 ---
 
