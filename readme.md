@@ -38,6 +38,9 @@ visión artificial, programación lógica, entre otros.
 
 :green_book: [A2.1_Tipos de Actuadores](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/A2.1_SeashellMarquez_Masapan.md)
 
+:green_book: [C3.1 Arduino](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/C3.1_SeashellMarquez_Masapan.md)
+
+:green_book: [C3.2 Arduino](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/C3.2_SeashellMarquez_Masapan.md)
 
 ---
 
