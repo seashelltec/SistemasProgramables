@@ -42,5 +42,9 @@ visión artificial, programación lógica, entre otros.
 
 :green_book: [C3.2 Arduino](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/C3.2_SeashellMarquez_Masapan.md)
 
+:green_book: [C3.3 Arduino](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/C3.3_SeashellMarquez_Masapan.md)
+
+:green_book: [C3.4 Arduino](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/C3.4_SeashellMarquez_Masapan.md)
+
 ---
 
