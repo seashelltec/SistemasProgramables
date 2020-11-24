@@ -50,5 +50,7 @@ visión artificial, programación lógica, entre otros.
 
 :green_book: [C3.7 NodeMCU pract.2](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/C3.7_SeashellMarquez_Masapan.md)
 
+:green_book: [C3.8 NodeMCU pract.3](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/C3.8_SeashellMarquez_Masapan.md)
+
 ---
 
