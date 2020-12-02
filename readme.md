@@ -54,5 +54,8 @@ visión artificial, programación lógica, entre otros.
 
 :green_book: [A3.2 Practica Touch](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/A3.2_SeashellMarquez_Masapan.md)
 
+
+:green_book: [A3.3 Practica temperatura RGB](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/A3.3_SeashellMarquez_Masapan.md)
+
 ---
 
