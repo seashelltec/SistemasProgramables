@@ -57,5 +57,7 @@ visión artificial, programación lógica, entre otros.
 
 :green_book: [A3.3 Practica temperatura RGB](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/A3.3_SeashellMarquez_Masapan.md)
 
+:green_book: [C4.1 Practica 1 bluetooth](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/C4.1_SeashellMarquez_Masapan.md)
+
 ---
 
