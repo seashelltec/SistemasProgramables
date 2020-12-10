@@ -59,5 +59,10 @@ visión artificial, programación lógica, entre otros.
 
 :green_book: [C4.1 Practica 1 bluetooth](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/C4.1_SeashellMarquez_Masapan.md)
 
+:green_book: [A4.1 Practica 1 wi-fi](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/A4.1_SeashellMarquez_Masapan.md)
+
+
+:green_book: [C4.2 Practica 1 wi-fi](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/C4.2_SeashellMarquez_Masapan.md)
+
 ---
 
