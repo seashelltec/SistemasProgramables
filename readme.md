@@ -66,5 +66,8 @@ visión artificial, programación lógica, entre otros.
 
 :green_book: [A4.2 Practica 2 wi-fi](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/A4.2_SeashellMarquez_Masapan.md)
 
+:green_book: [C5.1 Practica Node red](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/C5.1_SeashellMarquez_Masapan.md)
+
+
 ---
 

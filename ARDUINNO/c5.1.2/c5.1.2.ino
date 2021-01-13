@@ -82,7 +82,7 @@ void InitWiFi()
     //Inicializamos el puerto serial
     soft.begin(9600);
     //Iniciamos la conexión wifi
-    WiFi.init(&soft);
+    WiFi.init(soft);//AQUI ESTA EL ERROR
     //Verificamos si se pudo realizar la conexión al wifi
     //si obtenemos un error, lo mostramos por log y denememos el programa
     if (WiFi.status() == WL_NO_SHIELD) {
