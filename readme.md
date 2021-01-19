@@ -68,6 +68,8 @@ visión artificial, programación lógica, entre otros.
 
 :green_book: [C5.1 Practica Node red](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/C5.1_SeashellMarquez_Masapan.md)
 
+:green_book: [A5.1 Practica Final](https://github.com/seashelltec/SistemasProgramables/blob/master/blog/A5.1_SeashellMarquez_Masapan.md)
+
 
 ---
 

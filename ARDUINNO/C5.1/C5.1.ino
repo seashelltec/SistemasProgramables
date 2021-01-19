@@ -11,7 +11,7 @@
 DHT bme(DHTPIN, DHTTYPE);
 
 const char* ssid = "INFINITUM4524_2.4";
-const char* password = "Af57dwTY89522s_j";
+const char* password = "Peepeepoopoocheck77.";
 
 const char* mqtt_server = "192.168.1.69";
 
@@ -56,7 +56,7 @@ void setup_wifi() {
   Serial.println("");
   Serial.println("WiFi connected");
   Serial.println("IP address: ");
-  Serial.println(WiFi.localIP());
+  Serial.println(mqtt_server);
 }
 
 void callback(char* topic, byte* message, unsigned int length) {

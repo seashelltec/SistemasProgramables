@@ -1,20 +1,35 @@
-#include <WiFi.h>
-#include <PubSubClient.h>
-#include "DHT.h"
 
 
-#define DHTTYPE DHT11   // DHT 11
 
+/*
 const char* ssid = "INFINITUM4524_2.4";
 const char* password = "Peepeepoopoocheck77.";
 
 const char* mqtt_server = "192.168.1.70";
+*/
 
+#include <WiFi.h>
+#include <PubSubClient.h>
+#include "DHT.h"
+
+// Uncomment one of the lines bellow for whatever DHT sensor type you're using!
+#define DHTTYPE DHT11   // DHT 11
+
+// Change the credentials below, so your ESP8266 connects to your router
+const char* ssid = "INFINITUM4524_2.4";
+const char* password = "Peepeepoopoocheck77.";
+
+// Change the variable to your Raspberry Pi IP address, so it connects to your MQTT broker
+const char* mqtt_server = "192.168.1.144";
+
+// Initializes the espClient. You should change the espClient name if you have multiple ESPs running in your home automation system
 WiFiClient espClient;
 PubSubClient client(espClient);
 
-const int DHTPin = 11;
+// DHT Sensor - GPIO 5 = D1 on ESP-12E NodeMCU board
+const int DHTPin = 5;
 
+// Lamp - LED - GPIO 4 = D2 on ESP-12E NodeMCU board
 const int lamp = 4;
 
 // Initialize DHT sensor.
@@ -24,6 +39,7 @@ DHT dht(DHTPin, DHTTYPE);
 long now = millis();
 long lastMeasure = 0;
 
+// Don't change the function below. This functions connects your ESP8266 to your router
 void setup_wifi() {
   delay(10);
   // We start by connecting to a WiFi network
@@ -38,8 +54,6 @@ void setup_wifi() {
   Serial.println("");
   Serial.print("WiFi connected - ESP IP address: ");
   Serial.println(WiFi.localIP());
-  Serial.println("Real:");
-  Serial.println(mqtt_server);
 }
 
 void callback(String topic, byte* message, unsigned int length) {
@@ -67,20 +81,21 @@ void callback(String topic, byte* message, unsigned int length) {
   }
   Serial.println();
 }
- 
+
 void reconnect() {
   // Loop until we're reconnected
   while (!client.connected()) {
     Serial.print("Attempting MQTT connection...");
-   
+    
     if (client.connect("ESP8266Client")) {
       Serial.println("connected");  
+      
       client.subscribe("room/lamp");
     } else {
       Serial.print("failed, rc=");
       Serial.print(client.state());
       Serial.println(" try again in 5 seconds");
-      // Wait 5 seconds before retrying
+      
       delay(5000);
     }
   }
@@ -103,28 +118,26 @@ void loop() {
   if (!client.connected()) {
     reconnect();
   }
-  /*if(!client.loop())
-    client.connect("ESPClient");*/
-    client.loop();
+  if(!client.loop())
+    client.connect("ESP8266Client");
 
   now = millis();
- 
+
   if (now - lastMeasure > 30000) {
     lastMeasure = now;
-    
+
     float h = dht.readHumidity();
-    
+    // Read temperature as Celsius (the default)
     float t = dht.readTemperature();
     
     float f = dht.readTemperature(true);
 
-    // Check if any reads failed and exit early (to try again).
     if (isnan(h) || isnan(t) || isnan(f)) {
       Serial.println("Failed to read from DHT sensor!");
       return;
     }
 
-    
+    // Computes temperature values in Celsius
     float hic = dht.computeHeatIndex(t, h, false);
     static char temperatureTemp[7];
     dtostrf(hic, 6, 2, temperatureTemp);
@@ -133,7 +146,7 @@ void loop() {
     static char humidityTemp[7];
     dtostrf(h, 6, 2, humidityTemp);
 
-   
+    // Publishes Temperature and Humidity values
     client.publish("room/temperature", temperatureTemp);
     client.publish("room/humidity", humidityTemp);
     
@@ -147,4 +160,4 @@ void loop() {
     Serial.print(hic);
     Serial.println(" *C ");
   }
-} 
+}
